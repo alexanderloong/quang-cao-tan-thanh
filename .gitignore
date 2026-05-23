@@ -1,0 +1,58 @@
+# ──────────────────────────────────────────────
+# .gitignore — Quảng Cáo Tân Thành
+# Vanilla HTML/CSS/JS project (no build tools)
+# ──────────────────────────────────────────────
+
+# ── Windows ──────────────────────────────────
+Thumbs.db
+Thumbs.db:encdata
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── macOS ─────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── VS Code ───────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+
+# ── Editor / IDE ──────────────────────────────
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────
+*.log
+logs/
+
+# ── Node (nếu dùng live-server, prettier...) ──
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# ── Build output (nếu sau này thêm bundler) ───
+dist/
+build/
+.cache/
+
+# ── Secrets / Config nhạy cảm ─────────────────
+.env
+.env.local
+.env.production
+secrets.js
+config.local.js
+
+# ── Backup / temp files ───────────────────────
+*.bak
+*.tmp
+*.orig
+*~

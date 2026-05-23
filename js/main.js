@@ -528,7 +528,7 @@ const submitBtn     = document.getElementById('btn-form-submit');
         console.warn('[TânThành] Cần điền GAS_URL trong main.js. Xem file google-apps-script.js.');
       } else {
         // Lỗi mạng hoặc khác
-        setSubmitState('❌ Lỗi! Vui lòng gọi: 0777 772 255', 'linear-gradient(135deg,#ef4444,#dc2626)');
+        setSubmitState('❌ Lỗi! Vui lòng gọi: 077 777 22 55', 'linear-gradient(135deg,#ef4444,#dc2626)');
         console.error('[TânThành] Lỗi gửi form:', err);
       }
     }
@@ -620,7 +620,7 @@ const submitBtn     = document.getElementById('btn-form-submit');
    INIT LOG
 ════════════════════════════════════════════════ */
 console.log(
-  '%c🏪 Quảng Cáo Tân Thành%c\n📞 0777 772 255 | 📍 129 Thạch Lam, Tân Phú, TP.HCM',
+  '%c🎪 Quảng Cáo Tân Thành%c\n📞 077 777 22 55 | 📍 129 Thạch Lam, Tân Phú, TP.HCM',
   'color: #FF6B00; font-size: 18px; font-weight: bold;',
   'color: #B0B8C8; font-size: 12px;'
 );
